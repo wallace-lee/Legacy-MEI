@@ -9,9 +9,8 @@ To compile, type:<br />
 $ cd src <br />
 $ make -C /path/to/linux-2.6.32-src M=&#96;pwd&#96; modules <br />
 $ depmod -a <br />
-
 <br />
-or
+### or
 <br />
 
 $ cd src <br />
