@@ -1,0 +1,28 @@
+/root/mei/pci-me.c:108: warning: ‘mei_me_set_pm_domain’ used but never defined
+/root/mei/pci-me.c:109: warning: ‘mei_me_unset_pm_domain’ used but never defined
+/root/mei/client.c: In function ‘mei_cl_complete’:
+/root/mei/client.c:1744: warning: unused variable ‘dev’
+/root/mei/main.c:787: warning: initialization from incompatible pointer type
+/root/mei/bus.c:739: warning: type defaults to ‘int’ in declaration of ‘DEVICE_ATTR_RO’
+/root/mei/bus.c:739: warning: parameter names (without types) in function declaration
+/root/mei/bus.c:749: warning: type defaults to ‘int’ in declaration of ‘DEVICE_ATTR_RO’
+/root/mei/bus.c:749: warning: parameter names (without types) in function declaration
+/root/mei/bus.c:759: warning: type defaults to ‘int’ in declaration of ‘DEVICE_ATTR_RO’
+/root/mei/bus.c:759: warning: parameter names (without types) in function declaration
+/root/mei/bus.c:771: warning: type defaults to ‘int’ in declaration of ‘DEVICE_ATTR_RO’
+/root/mei/bus.c:771: warning: parameter names (without types) in function declaration
+/root/mei/bus.c:774: error: ‘dev_attr_name’ undeclared here (not in a function)
+/root/mei/bus.c:775: error: ‘dev_attr_uuid’ undeclared here (not in a function)
+/root/mei/bus.c:776: error: ‘dev_attr_version’ undeclared here (not in a function)
+/root/mei/bus.c:777: error: ‘dev_attr_modalias’ undeclared here (not in a function)
+/root/mei/bus.c:780: warning: data definition has no type or storage class
+/root/mei/bus.c:780: warning: type defaults to ‘int’ in declaration of ‘ATTRIBUTE_GROUPS’
+/root/mei/bus.c:780: warning: parameter names (without types) in function declaration
+/root/mei/bus.c:814: error: unknown field ‘dev_groups’ specified in initializer
+/root/mei/bus.c:814: error: ‘mei_cldev_groups’ undeclared here (not in a function)
+/root/mei/bus.c:814: error: initializer element is not constant
+/root/mei/bus.c:814: error: (near initialization for ‘mei_cl_bus_type.bus_attrs’)
+/root/mei/bus.c: In function ‘mei_cl_bus_dev_alloc’:
+/root/mei/bus.c:892: warning: assignment discards qualifiers from pointer target type
+make[1]: *** [/root/mei/bus.o] Error 1
+make: *** [_module_/root/mei] Error 2
